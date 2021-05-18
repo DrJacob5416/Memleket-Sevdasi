@@ -1,0 +1,99 @@
+*{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bg-dark {
+    background-color: #343a40!important;
+}
+
+.bg-img{
+    background-image: url(../images/uludağğğğ.jpg);
+    height: 20vh;
+    background-size: cover;
+    background-position:top;
+}
+
+body { 
+    background-image: url(../images/beyaz.jpg);
+
+} 
+
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color:darkgreen;
+    padding: 2%, 8%;
+    border: 1px solid rgb(4, 226, 41);
+    transition: 0.5s ease;
+}
+
+ul li a:hover{
+    background-color: rgb(13, 116, 0);
+    color: rgb(255, 255, 255);
+}
+
+img{
+    height: 100%;
+    width: 100%;
+ }
+
+#profil 
+{
+    float: left;     width: 180px;     height: 240px ;     margin-left: 25px;     margin-top: 25px;
+}
+
+#assasinscreed
+{
+    height: 30%;
+    width: 20%;
+    float: left;
+    margin-left: 7%;     margin-top: 10%;
+}
+
+#saian
+{
+    height: 30%;
+    width: 20%;
+    float: left;
+    margin-left: 7%;     margin-top: 10%;
+}
+
+#batalla
+{
+    height: 30%;
+    width: 20%;
+    float: left;
+    margin-left: 7%;     margin-top: 10%;
+}
+
+#küçüklük
+{
+    float: left;     width: 240px;     height: 240px ;     margin-left: 25px;     margin-top: 25px;
+}
+
+#yazı
+{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 19px;
+}
+
+#başlık
+{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+}
+
+#bayrak
+{
+    float: right;     width: 240px;     height: 240px ;     margin-right: 25px;     margin-top: 25px;
+}
+
