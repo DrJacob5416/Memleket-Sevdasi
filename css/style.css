@@ -97,3 +97,7 @@ img{
     float: right;     width: 240px;     height: 240px ;     margin-right: 25px;     margin-top: 25px;
 }
 
+#carouselControls
+{
+    float: left;      width: 50%;     height: 50% ;  margin-left: 25%;
+}
