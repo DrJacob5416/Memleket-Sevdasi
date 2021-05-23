@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>HAKKIMDA</title>
+  <title>İLETİŞİM</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -51,22 +51,34 @@
   </div>  
 </nav>
 
-<br>
+  <br>
 
-<p id="başlık">
-    İLETİŞİM
-<br>
+  <p id="başlık">
+      İLETİŞİM
+  <br>
 
-<form name="iletisimForm" action="yakupturan01@hotmail.com" method="post" onsubmit="return validateForm()" enctype="text/plain">
-Ad-Soyad: <br>
-<input type="text" name="ad"><br>
-E-mail: <br>
-<input type="text" name="mail"><br>
-Mesaj: <br>
-<input type="text" name="mesaj" size="50"><br><br>
-<input type="submit" value="Gönder">
-<input type="reset" value="Temizle">
-</form>
+  <form name="iletisimForm" action="mesaj.html" method="post" onsubmit="return validateForm()" enctype="text/plain">
+    Ad-Soyad: <br>
+    <input type="text" name="ad"><br>
+    E-mail: <br>
+    <input type="text" name="mail"><br>
+    Mesaj: <br>
+    <input type="text" name="mesaj" size="50"><br><br>
+   
+
+    <label for="begenme">Sitemi Ne Kadar Beğendiniz?</label>
+    <select id="begenme" name="begenme">
+      <option value="Az">Az</option>
+      <option value="Normal">Normal</option>
+      <option value="Çok">Çok</option>
+      <option value="Aşırı Çok">Aşırı Çok</option>
+    </select>
+<br>
+<br>
+    <input type="submit" value="Gönder">
+    <input type="reset" value="Temizle">
+
+  </form>
 
 </body>
 </html>
